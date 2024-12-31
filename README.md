@@ -4,6 +4,8 @@ A convenient PowerShell function to get started with PowerShell and random dog i
 Looking for a daily dose of smiles?
 Here's a fun and simple trick: customize your #PowerShell `$profile` to surprise you with a random dog image every day! 🐶✨
 
+![LinkedInPost-Final](https://github.com/user-attachments/assets/bab42375-e5e1-477c-b6b7-f01e181ef069)
+
 # Setup Instructions
 Give it a try, it is this easy to get started today!
 
@@ -23,6 +25,4 @@ Now whenever you open a new PowerShell session within a terminal, you can easily
 dog
 Get-RandomDogImage`
 
-Embrace the joy of unexpected doggy moments with this delightful PowerShell hack.
-
-![LinkedInPost-Final](https://github.com/user-attachments/assets/bab42375-e5e1-477c-b6b7-f01e181ef069)
+Now embrace the joy of unexpected doggy moments with this delightful PowerShell hack.
