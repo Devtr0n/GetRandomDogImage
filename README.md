@@ -2,7 +2,7 @@
 A convenient PowerShell function to get started with PowerShell and random dog images!
 
 Looking for a daily dose of smiles?
-Here's a fun and simple trick: customize your #PowerShell `$profile` to surprise you with a random dog image every day! 🐶✨
+Here's a fun and simple trick: customize your #PowerShell `$profile` to surprise yourself and your friends with a random dog image every day! 🐶✨
 
 ![LinkedInPost-Final](https://github.com/user-attachments/assets/bab42375-e5e1-477c-b6b7-f01e181ef069)
 
@@ -13,7 +13,26 @@ First, edit your PowerShell `$profile` with this PS command:
 
 `notepad $PROFILE`
 
-Second, save `CTRL + S` the changes and close Notepad.
+Second, copy and paste the function (.ps1) contents then save `CTRL + S` the changes and close Notepad.
+
+```
+function Get-RandomDogImage {
+    $url = "https://dog.ceo/api/breeds/image/random"
+    try {
+        # Get a dog image
+        $response = Invoke-RestMethod -Uri $url -Method Get
+        $imageUrl = $response.message
+        Write-Host "Random Dog Image URL: $imageUrl"
+        
+        # Open the dog image in Google Chrome
+        Start-Process "chrome.exe" $imageUrl
+    } catch {
+        Write-Host "An error occurred: $_"
+    }
+}
+set-alias randomdog Get-RandomDogImage
+set-alias dog randomdog
+```
 
 Finally, load your new `$profile` to apply the changes without restarting PowerShell, like so:
 
