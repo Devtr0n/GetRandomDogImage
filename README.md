@@ -4,7 +4,7 @@ A convenient PowerShell function to get started with PowerShell and random dog i
 Looking for a daily dose of smiles?
 Here's a fun and simple trick: customize your #PowerShell `$profile` to surprise yourself and your friends with a random dog image every day! 🐶✨
 
-![RandomDogImageOutput](https://github.com/user-attachments/assets/d25ddd61-e6f1-4477-9e47-884b74b4d71e)
+![LinkedInPost-Final](https://github.com/user-attachments/assets/0f47b0fb-2ffc-4be3-8cff-c50a17a80b94)
 
 # Setup Instructions
 Give it a try, it is this easy to get started today!
