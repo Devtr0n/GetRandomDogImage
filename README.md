@@ -1,2 +1,9 @@
 # GetRandomDogImage
-PowerShell function for fetching random dog images
+A convenient PowerShell function to get started with PowerShell and random dog images!
+
+Looking for a daily dose of smiles?
+Here's a fun and simple trick: customize your #PowerShell $profile to surprise you with a random dog image every day! 🐶✨
+
+Embrace the joy of unexpected doggy moments with this delightful PowerShell hack.
+
+![LinkedInPost-Final](https://github.com/user-attachments/assets/bab42375-e5e1-477c-b6b7-f01e181ef069)
